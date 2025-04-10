@@ -4,7 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const crypto = require("crypto");
 const pkg = require("./package.json");
-const Account = require("./models/Account");
+const Account = require("./models/account");
 
 // App constants
 const port = process.env.PORT || 5000;
